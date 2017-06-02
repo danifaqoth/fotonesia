@@ -241,7 +241,7 @@
 		</div>	
 	</section>
 	<!-- End Foto Favorit -->
-
+	<br>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.2.0.min.js"></script>
