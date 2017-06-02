@@ -1,0 +1,157 @@
+/*color
+#004c79
+#005f97
+#3c8ab8
+#e8f4fa
+#849fbb
+*/
+html,body{
+	overflow-x: hidden;
+	
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+/*
+===================================
+Header Area
+===================================
+*/
+.header-items{
+	float: right;
+}
+
+.nav-header {
+	margin: 0;
+}
+
+.navbar-nav,
+.search,
+.login {
+	float: left;
+}
+
+ 
+.logo{
+	padding: 17px 30px;
+}
+
+.col-sm-8,
+.searchfoto{
+	padding: 10px 15px;
+}
+
+input.form-control,
+search{
+	border-radius: 15px;
+}
+
+button.btn.btn-default,
+search {
+	border-radius: 15px;
+}
+
+.col-sm-2, 
+.daftar {
+	padding: 15px;
+}
+
+
+.navbar-left, 
+.main-form{
+	width: 65%;
+}
+
+.input-search{
+	width: 100%;
+}
+
+.btn-search {
+	width: 1% !important;
+}
+
+.heading {
+	color: #ffffff;
+}
+
+.search-wrapper {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding-bottom: 40px;
+    background: rgba(0, 51, 102, 0.2);
+}
+
+.foto-category {
+	width: 100%;
+}
+
+.favorit{
+	width: 100%;
+}
+
+.col-fav { 
+	padding: 0;
+}
+
+/*======================
+Testimoni
+======================*/
+.testimonial {
+	background: #e8f4fa;
+	padding: 50px 0;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 100px;
+    background-position: center center;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block {
+	margin: 0;
+}
